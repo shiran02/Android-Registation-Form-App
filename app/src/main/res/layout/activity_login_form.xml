@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    android:orientation="vertical"
+    tools:context=".loginForm">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="20dp"
+       android:layout_gravity="center"
+       android:orientation="vertical">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Login Form"
+          android:layout_marginTop="20dp"
+          android:textStyle="bold"
+          android:textAllCaps="false"
+          android:textColor="#FF003A"
+          android:textSize="30dp"
+          />
+
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:hint="Username"
+          android:layout_marginStart="15dp"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+          app:boxStrokeColor="#FF003A"
+
+          android:textColor="@color/white"
+
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          app:helperTextTextColor="#EF0000"
+
+          app:startIconDrawable="@drawable/ic_user"
+          app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+
+          app:hintTextColor="#FF003A"
+          android:textColorHint="#FF003A"
+          android:layout_marginTop="140dp"
+
+          app:endIconMode="clear_text"
+          >
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/usernamefield"
+
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+
+
+             android:inputType="text"
+             android:shadowColor="#FBC02D"
+             android:textAllCaps="false"
+             android:textColor="#FBC02D"
+
+             android:textColorHighlight="#FFFFFF"
+             android:textColorHint="#FBC02D"
+             android:textSize="24dp"
+
+
+
+
+             />
+
+      </com.google.android.material.textfield.TextInputLayout>
+      <com.google.android.material.textfield.TextInputLayout
+          android:hint="Password"
+          android:layout_marginStart="15dp"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+          app:boxStrokeColor="#FF003A"
+
+          android:textColor="@color/white"
+
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          app:helperTextTextColor="#EF0000"
+
+          app:startIconDrawable="@drawable/ic_pw"
+          app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+
+
+          app:hintTextColor="#FF003A"
+          android:textColorHint="#FF003A"
+          android:layout_marginTop="10dp"
+
+          app:endIconMode="clear_text"
+          >
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/paswaordfield"
+
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+
+
+             android:inputType="text"
+             android:shadowColor="#FBC02D"
+             android:textAllCaps="false"
+             android:textColor="#FBC02D"
+
+             android:textColorHighlight="#FFFFFF"
+             android:textColorHint="#FBC02D"
+             android:textSize="24dp"
+
+
+
+
+             />
+
+      </com.google.android.material.textfield.TextInputLayout>
+      <android.widget.Button
+          android:id="@+id/login_button"
+          android:layout_width="280dp"
+          android:layout_height="48dp"
+
+          android:background="#EF0000"
+
+          android:transitionName="btn_tran"
+          android:textSize="25dp"
+          android:text="Login"
+          android:textAllCaps="false"
+          android:layout_gravity="center"
+          android:elevation="0dp"
+          android:textColor="@color/white"
+          android:layout_marginTop="60dp"/>
+
+      <ImageButton
+          android:id="@+id/edit_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:srcCompat="@drawable/www"
+          android:background="#00000000"
+          android:layout_marginTop="124dp"/>
+
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

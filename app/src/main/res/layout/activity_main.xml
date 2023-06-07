@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="1dp"
+            app:srcCompat="@drawable/picture" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Email Address"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:boxStrokeColor="#FF003A"
+
+            android:textColor="@color/white"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:helperTextTextColor="#EF0000"
+
+            app:hintTextColor="#FF003A"
+            android:textColorHint="#FF003A"
+
+            app:startIconDrawable="@drawable/ic_email"
+            app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+            app:endIconMode="clear_text"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailfield"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+
+
+                android:inputType="text"
+                android:shadowColor="#FBC02D"
+                android:textAllCaps="false"
+                android:textColor="#FBC02D"
+
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FBC02D"
+                android:textSize="24dp"
+
+
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Employee ID"
+
+
+            app:boxStrokeColor="#FF003A"
+
+
+
+            app:hintTextColor="#FF003A"
+            android:textColorHint="#FF003A"
+
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            android:layout_marginTop="10dp"
+            app:endIconMode="clear_text"
+
+            app:startIconDrawable="@drawable/ic_id"
+            app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/employeidfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:shadowColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+
+                android:transitionName="username_tran"
+                android:maxLength="21"
+                android:textSize="24dp"
+                app:hintTextAppearance="@color/white"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Employee Name"
+
+
+            app:boxStrokeColor="#FF003A"
+
+            app:hintTextColor="#FF003A"
+            android:textColorHint="#FF003A"
+
+            app:endIconMode="clear_text"
+            android:layout_marginTop="-10dp"
+
+            app:startIconDrawable="@drawable/ic_user"
+            app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/employenamefield"
+                app:boxStrokeColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:shadowColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+
+
+                android:maxLength="21"
+                android:textSize="24dp"
+                app:hintTextAppearance="@color/white"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Username"
+
+
+            app:hintTextColor="#FF003A"
+            android:textColorHint="#FF003A"
+
+            app:boxStrokeColor="#FF003A"
+
+
+            android:layout_marginTop="10dp"
+            app:endIconMode="clear_text"
+
+            app:startIconDrawable="@drawable/ic_user"
+            app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/usernamefield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+
+
+                android:maxLength="21"
+                android:textSize="24dp"
+                app:hintTextAppearance="@color/white"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Password"
+            app:boxStrokeColor="#FF003A"
+
+            android:textColor="@color/white"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            app:hintTextColor="#FF003A"
+            android:textColorHint="#FF003A"
+
+            app:passwordToggleEnabled="true"
+android:layout_marginTop="10dp"
+
+
+            app:helperTextTextColor="#EF0000"
+            app:startIconDrawable="@drawable/ic_pw"
+            app:startIconTint="@color/mtrl_textinput_default_box_stroke_color">
+
+
+            android:layout_marginTop="10dp"
+          >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+
+
+                android:inputType="textPassword"
+                android:shadowColor="#FBC02D"
+                android:textAllCaps="false"
+                android:textColor="#FBC02D"
+
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FBC02D"
+                android:textSize="24dp"
+                android:transitionName="password_tran"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+
+            android:hint="Mobile Number"
+            app:boxStrokeColor="#FF003A"
+
+            android:textColor="@color/white"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            app:hintTextColor="#FF003A"
+            android:textColorHint="#FF003A"
+
+
+
+            app:startIconDrawable="@drawable/ic_mobile"
+            app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+
+
+            app:helperTextTextColor="#EF0000"
+
+
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mobilenumberfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+
+
+                android:inputType="text"
+                android:shadowColor="#FBC02D"
+                android:textAllCaps="false"
+                android:textColor="#FBC02D"
+
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FBC02D"
+                android:textSize="24dp"
+                android:transitionName="password_tran"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="#F4F4F4"
+                android:layout_marginTop="10dp"
+                android:popupBackground="#C2185B"
+                android:spinnerMode ="dropdown"
+
+                android:background="#FF003A"
+                android:letterSpacing="0.1"
+                android:textSize="24dp"
+                />
+        </LinearLayout>
+
+
+
+        <android.widget.Button
+            android:id="@+id/save_go"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+
+            android:background="#FF003A"
+
+            android:transitionName="btn_tran"
+            android:textSize="25dp"
+            android:text="Signup"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+
+            android:id="@+id/login_alreadyacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+
+            android:text="Already hava an Account"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:transitionName="login_sign_up_tran"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

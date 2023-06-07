@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/drawable/custermercise_edittext.xml" value="0.3458333333333333" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/drawable/customise_edittext.xml" value="0.3458333333333333" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.20701754385964913" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/layout/activity_edit_detail.xml" value="0.2" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/layout/activity_edit_form.xml" value="0.2" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/layout/activity_find_detail.xml" value="0.28935185185185186" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/layout/activity_login_form.xml" value="0.1" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Nbits Android Class/Register Form With Sqlite and validation/app/src/main/res/layout/activity_menu.xml" value="0.3255208333333333" />
+        <entry key="..\:/Register Form With Sqlite and validation/app/src/main/res/drawable/ic_id.xml" value="0.24895833333333334" />
+        <entry key="..\:/Register Form With Sqlite and validation/app/src/main/res/layout/activity_edit_detail.xml" value="0.22864583333333333" />
+        <entry key="..\:/Register Form With Sqlite and validation/app/src/main/res/layout/activity_edit_form.xml" value="0.22864583333333333" />
+        <entry key="..\:/Register Form With Sqlite and validation/app/src/main/res/layout/activity_login_form.xml" value="0.22864583333333333" />
+        <entry key="..\:/Register Form With Sqlite and validation/app/src/main/res/layout/activity_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
